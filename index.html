@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>deshort.com — Reclaim attention</title>
+  <meta name="description" content="deshort is a movement to reclaim attention by reducing short-form video surfaces in everyday browsing." />
+
+  <link rel="icon" href="/assets/deshort-mark.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/css/styles.css" />
+
+  <meta property="og:title" content="deshort.com — Reclaim attention" />
+  <meta property="og:description" content="A movement to reclaim attention by reducing short-form video surfaces." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://deshort.com" />
+  <!-- TODO: add og:image (PNG) later -->
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="/">
+        <img src="/assets/deshort-mark.svg" alt="deshort" />
+        <span>deshort.com</span>
+      </a>
+      <nav class="nav-links">
+        <a href="#mission">Mission</a>
+        <a href="#tools">Tools</a>
+        <a href="#join">Join</a>
+        <a class="btn btn-primary" href="#get">Get deshort</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="badge"><span class="dot"></span><span>movement · open-source · privacy-first</span></div>
+          <h1>Short‑form video is eating our attention.<br/>We’re taking it back.</h1>
+          <p>
+            deshort is a movement to reduce the time we lose to endless short‑video feeds.
+            We can’t stop the trend — but we can design our defaults to make distraction less automatic.
+          </p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#get">Install / Learn</a>
+            <a class="btn" href="#mission">Read the mission</a>
+            <a class="btn" href="https://github.com/ramensushi2026/deshort" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+          <p class="small" style="margin-top:12px;color:var(--muted)">
+            Note: deshort is a UI cleaner. It hides Shorts/Reels surfaces in listings; it doesn’t block direct links.
+          </p>
+        </div>
+
+        <div class="card">
+          <img src="/assets/deshort-logo.svg" alt="deshort logo" style="width:100%;height:auto;border-radius:14px;border:1px solid rgba(42,42,48,.7)" />
+          <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px">
+            <span class="badge"><span class="dot"></span><span>Lower friction</span></span>
+            <span class="badge"><span class="dot"></span><span>Better defaults</span></span>
+            <span class="badge"><span class="dot"></span><span>Community</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="mission">
+      <div class="container">
+        <div class="kicker">Mission</div>
+        <h2>Make mindful attention the default.</h2>
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Why</h3>
+            <p>
+              Short‑form video is engineered for compulsion: infinite scroll, autoplay, variable rewards.
+              It can crowd out deep work, learning, relationships, and rest.
+            </p>
+          </div>
+          <div class="card">
+            <h3>How</h3>
+            <p>
+              We build practical tools that remove “entry points” (Shorts/Reels shelves, sidebar buttons, search cards)
+              so you choose intentionally — not by default.
+            </p>
+          </div>
+        </div>
+        <div class="card" style="margin-top:14px">
+          <h3>Principles</h3>
+          <ul class="list">
+            <li><strong>Privacy‑first:</strong> no tracking, no analytics by default.</li>
+            <li><strong>Open source:</strong> transparent code, community review.</li>
+            <li><strong>Non‑moralizing:</strong> we reduce friction, we don’t shame users.</li>
+            <li><strong>Direct links still work:</strong> you can still open a specific Shorts/Reels URL when you want to.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="tools">
+      <div class="container">
+        <div class="kicker">Tools</div>
+        <h2>Start with one small change.</h2>
+        <div class="grid grid-3">
+          <div class="card">
+            <h3>Chrome extension</h3>
+            <p>Hide YouTube Shorts & Facebook Reels surfaces in feeds/listings.</p>
+            <p class="small" style="margin-top:10px">
+              Repo: <a href="https://github.com/ramensushi2026/deshort" target="_blank" rel="noreferrer">github.com/ramensushi2026/deshort</a>
+            </p>
+          </div>
+          <div class="card">
+            <h3>Safari / iOS</h3>
+            <p>Planned. Safari requires a Safari Web Extension build (Xcode).</p>
+          </div>
+          <div class="card">
+            <h3>Community playbook</h3>
+            <p>Simple routines for families, students, and teams to reclaim time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="get">
+      <div class="container">
+        <div class="kicker">Get deshort</div>
+        <h2>Install (today)</h2>
+        <div class="card">
+          <p style="margin:0 0 10px;color:var(--muted)">
+            Chrome Web Store launch is next. For now you can install from source:
+          </p>
+          <ol class="list">
+            <li>Open <code>chrome://extensions/</code></li>
+            <li>Enable <strong>Developer mode</strong></li>
+            <li>Click <strong>Load unpacked</strong> and select the folder that contains <code>manifest.json</code></li>
+          </ol>
+          <p class="small" style="margin-top:10px;color:var(--muted)">
+            We only hide listings; Shorts/Reels direct URLs still open.
+          </p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:14px">
+            <a class="btn btn-primary" href="https://github.com/ramensushi2026/deshort" target="_blank" rel="noreferrer">View the extension repo</a>
+            <a class="btn" href="https://github.com/ramensushi2026/deshort/issues" target="_blank" rel="noreferrer">Report a leak / request coverage</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="join">
+      <div class="container">
+        <div class="kicker">Join</div>
+        <h2>Let’s make this a movement.</h2>
+        <div class="grid grid-2">
+          <div class="card">
+            <h3>Start a subreddit</h3>
+            <p>
+              A simple home for stories, tips, and accountability.
+              (We can set it up when you’re ready and define moderation rules.)
+            </p>
+          </div>
+          <div class="card">
+            <h3>Contribute</h3>
+            <p>
+              Developers can help expand coverage. Non‑devs can submit screenshots of “leaks” and page URLs.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div style="display:flex;gap:14px;flex-wrap:wrap;align-items:center;justify-content:space-between">
+        <div class="small">© <span id="y"></span> deshort.com · built to reclaim attention</div>
+        <div class="small">
+          <a href="https://github.com/ramensushi2026/deshort" target="_blank" rel="noreferrer">GitHub</a>
+          &nbsp;·&nbsp;
+          <a href="https://github.com/ramensushi2026/deshort/issues" target="_blank" rel="noreferrer">Issues</a>
+        </div>
+      </div>
+      <div class="small" style="margin-top:10px">
+        Disclaimer: This project is not medical advice. It’s a set of tools and community practices to reduce distraction.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

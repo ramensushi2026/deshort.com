@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="deshort mark">
+  <defs>
+    <linearGradient id="g" x1="64" y1="448" x2="448" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5AC8FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+  <rect x="48" y="48" width="416" height="416" rx="88" fill="#121214"/>
+  <rect x="48" y="48" width="416" height="416" rx="88" fill="none" stroke="#2A2A30" stroke-width="8"/>
+  <rect x="48" y="412" width="416" height="52" rx="26" fill="url(#g)" opacity="0.95"/>
+
+  <!-- stylized 'd' -->
+  <g>
+    <rect x="148" y="132" width="56" height="248" rx="24" fill="#ECECF0"/>
+    <rect x="148" y="214" width="220" height="48" rx="24" fill="#ECECF0"/>
+    <rect x="320" y="214" width="48" height="140" rx="24" fill="#ECECF0"/>
+    <rect x="176" y="242" width="164" height="84" rx="34" fill="#121214"/>
+  </g>
+
+  <!-- dot accent -->
+  <rect x="372" y="116" width="44" height="44" rx="16" fill="url(#g)"/>
+</svg>

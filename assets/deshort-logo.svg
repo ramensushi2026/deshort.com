@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240" role="img" aria-label="deshort.com">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5AC8FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="240" fill="none"/>
+
+  <!-- mark -->
+  <g transform="translate(40,24)">
+    <rect x="0" y="0" width="192" height="192" rx="44" fill="#121214"/>
+    <rect x="0" y="0" width="192" height="192" rx="44" fill="none" stroke="#2A2A30" stroke-width="4"/>
+    <rect x="0" y="168" width="192" height="24" rx="12" fill="url(#g)" opacity="0.95"/>
+
+    <rect x="52" y="44" width="24" height="110" rx="12" fill="#ECECF0"/>
+    <rect x="52" y="84" width="98" height="20" rx="10" fill="#ECECF0"/>
+    <rect x="130" y="84" width="20" height="64" rx="10" fill="#ECECF0"/>
+    <rect x="64" y="96" width="74" height="44" rx="18" fill="#121214"/>
+
+    <rect x="148" y="32" width="20" height="20" rx="8" fill="url(#g)"/>
+  </g>
+
+  <!-- wordmark -->
+  <g transform="translate(268,72)">
+    <text x="0" y="72" fill="#121214" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="-1.5">deshort</text>
+    <text x="430" y="72" fill="url(#g)" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="96" font-weight="800" letter-spacing="-1.5">.com</text>
+    <text x="0" y="120" fill="#5A5A66" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="22" font-weight="600">A movement to reclaim attention.</text>
+  </g>
+</svg>
