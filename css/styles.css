@@ -19,7 +19,12 @@ body{
 }
 
 a{color:inherit}
-.container{max-width:1040px;margin:0 auto;padding:0 20px}
+.container{
+  max-width:1040px;
+  margin:0 auto;
+  padding-left: calc(22px + env(safe-area-inset-left));
+  padding-right: calc(22px + env(safe-area-inset-right));
+}
 
 .nav{position:sticky;top:0;background:rgba(11,11,13,.62);backdrop-filter: blur(10px); border-bottom:1px solid rgba(42,42,48,.7); z-index:10}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0; position:relative; padding-top: calc(14px + env(safe-area-inset-top));}
@@ -37,7 +42,7 @@ a{color:inherit}
 .menu-panel{display:flex;flex-direction:column;gap:10px;min-width:220px}
 .menu-panel a{text-decoration:none;color:var(--muted);font-weight:700}
 .menu-panel a:hover{color:var(--text)}
-.nav-menu .menu-panel{position:absolute; right:0; top:52px; z-index:20}
+.nav-menu .menu-panel{position:absolute; right: calc(0px + env(safe-area-inset-right)); top:52px; z-index:20}
 
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:10px 14px;border-radius:12px;border:1px solid rgba(42,42,48,.9);background:rgba(18,18,20,.75);text-decoration:none;font-weight:750}
 .btn:hover{border-color:rgba(90,200,250,.65)}

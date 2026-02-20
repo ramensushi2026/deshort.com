@@ -18,22 +18,24 @@
   <rect width="1200" height="630" fill="url(#r1)"/>
   <rect width="1200" height="630" fill="url(#r2)"/>
 
+  <!-- mark -->
   <g transform="translate(96,120)">
-    <rect x="0" y="0" width="180" height="180" rx="46" fill="#121214"/>
-    <rect x="0" y="0" width="180" height="180" rx="46" fill="none" stroke="#2A2A30" stroke-width="4"/>
-    <rect x="0" y="156" width="180" height="24" rx="12" fill="url(#g)" opacity="0.95"/>
+    <rect x="0" y="0" width="180" height="180" rx="52" fill="#121214"/>
+    <rect x="0" y="0" width="180" height="180" rx="52" fill="none" stroke="#2A2A30" stroke-width="4"/>
 
-    <rect x="54" y="44" width="24" height="110" rx="12" fill="#ECECF0"/>
-    <rect x="54" y="84" width="92" height="20" rx="10" fill="#ECECF0"/>
-    <rect x="126" y="84" width="20" height="64" rx="10" fill="#ECECF0"/>
-    <rect x="66" y="96" width="68" height="44" rx="18" fill="#121214"/>
+    <path d="M44 90 C44 52 94 52 100 90 C106 128 156 128 156 90 C156 52 106 52 100 90 C94 128 44 128 44 90"
+          fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="140" y="44" width="46" height="28" rx="12" fill="#121214"/>
 
-    <rect x="142" y="30" width="20" height="20" rx="8" fill="url(#g)"/>
+    <path d="M84 72 L84 108 L110 90 Z" fill="#ECECF0"/>
+    <circle cx="100" cy="90" r="3.5" fill="#ECECF0" opacity="0.9"/>
+
+    <rect x="18" y="150" width="144" height="18" rx="9" fill="url(#g)" opacity="0.9"/>
   </g>
 
-  <g transform="translate(312,190)">
-    <text x="0" y="0" fill="#ECECF0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="74" font-weight="800" letter-spacing="-1.2">deshort.com</text>
-    <text x="0" y="70" fill="#A7A7B2" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="28" font-weight="650">A movement to reclaim attention.</text>
+  <g transform="translate(312,205)">
+    <text x="0" y="0" fill="#ECECF0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="74" font-weight="850" letter-spacing="-1.5">deshort.com</text>
+    <text x="0" y="70" fill="#A7A7B2" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="28" font-weight="650">Break the endless loop. Reclaim attention.</text>
     <text x="0" y="128" fill="#A7A7B2" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="22">Hide Shorts & Reels in listings. Keep direct links.</text>
   </g>
 
