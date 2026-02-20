@@ -73,3 +73,18 @@ a{color:inherit}
   .hero{padding-top:42px}
   .hero h1{font-size:38px}
 }
+
+/* Mobile nav: prevent overlap by allowing wrapping */
+@media (max-width: 640px){
+  .nav-inner{flex-wrap:wrap; gap:10px; justify-content:flex-start}
+  .brand{flex:1 1 auto}
+  .nav-links{flex:1 1 100%; width:100%; flex-wrap:wrap; justify-content:flex-start; gap:10px}
+  .nav-links a{font-size:13px}
+  .nav-links .btn{padding:8px 10px; border-radius:10px; margin-left:auto}
+}
+
+@media (max-width: 420px){
+  .brand span{font-size:14px}
+  .nav-links{gap:8px}
+  .nav-links a{font-size:12px}
+}
