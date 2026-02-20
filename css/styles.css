@@ -22,13 +22,22 @@ a{color:inherit}
 .container{max-width:1040px;margin:0 auto;padding:0 20px}
 
 .nav{position:sticky;top:0;background:rgba(11,11,13,.62);backdrop-filter: blur(10px); border-bottom:1px solid rgba(42,42,48,.7); z-index:10}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;padding:14px 0; position:relative; padding-top: calc(14px + env(safe-area-inset-top));}
 .brand{display:flex;align-items:center;gap:10px;text-decoration:none}
 .brand img{width:28px;height:28px}
 .brand span{font-weight:800;letter-spacing:-.5px}
 .nav-links{display:flex;gap:14px;align-items:center}
 .nav-links a{color:var(--muted);text-decoration:none;font-weight:650;font-size:14px}
 .nav-links a:hover{color:var(--text)}
+
+/* Mobile menu (details/summary) */
+.nav-mobile{display:none}
+.nav-menu summary{cursor:pointer}
+.nav-menu summary::-webkit-details-marker{display:none}
+.menu-panel{display:flex;flex-direction:column;gap:10px;min-width:220px}
+.menu-panel a{text-decoration:none;color:var(--muted);font-weight:700}
+.menu-panel a:hover{color:var(--text)}
+.nav-menu .menu-panel{position:absolute; right:0; top:52px; z-index:20}
 
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:10px 14px;border-radius:12px;border:1px solid rgba(42,42,48,.9);background:rgba(18,18,20,.75);text-decoration:none;font-weight:750}
 .btn:hover{border-color:rgba(90,200,250,.65)}
@@ -74,17 +83,13 @@ a{color:inherit}
   .hero h1{font-size:38px}
 }
 
-/* Mobile nav: prevent overlap by allowing wrapping */
+/* Mobile nav: switch to a menu button */
 @media (max-width: 640px){
-  .nav-inner{flex-wrap:wrap; gap:10px; justify-content:flex-start}
-  .brand{flex:1 1 auto}
-  .nav-links{flex:1 1 100%; width:100%; flex-wrap:wrap; justify-content:flex-start; gap:10px}
-  .nav-links a{font-size:13px}
-  .nav-links .btn{padding:8px 10px; border-radius:10px; margin-left:auto}
+  .nav-desktop{display:none}
+  .nav-mobile{display:block}
+  .nav-inner{gap:10px}
 }
 
 @media (max-width: 420px){
   .brand span{font-size:14px}
-  .nav-links{gap:8px}
-  .nav-links a{font-size:12px}
 }
