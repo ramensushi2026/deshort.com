@@ -1,35 +1,3 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="deshort mark">
-  <defs>
-    <linearGradient id="g" x1="96" y1="416" x2="416" y2="96" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#5AC8FA"/>
-      <stop offset="1" stop-color="#A78BFA"/>
-    </linearGradient>
-    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="b"/>
-      <feColorMatrix in="b" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.45 0"/>
-      <feMerge>
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-
-  <rect x="52" y="52" width="408" height="408" rx="96" fill="#121214"/>
-  <rect x="52" y="52" width="408" height="408" rx="96" fill="none" stroke="#2A2A30" stroke-width="8"/>
-
-  <!-- broken infinity loop = break the endless scroll -->
-  <path d="M156 256 C156 186 244 186 256 256 C268 326 356 326 356 256 C356 186 268 186 256 256 C244 326 156 326 156 256"
-        fill="none" stroke="url(#g)" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)"/>
-
-  <!-- create a deliberate "gap" in the loop -->
-  <rect x="330" y="174" width="86" height="54" rx="24" fill="#121214"/>
-
-  <!-- play icon (content is fine; the loop is what we cut) -->
-  <path d="M212 226 L212 286 L264 256 Z" fill="#ECECF0"/>
-
-  <!-- focus dot -->
-  <circle cx="256" cy="256" r="7" fill="#ECECF0" opacity="0.9"/>
-
-  <!-- accent underline -->
-  <rect x="92" y="402" width="328" height="34" rx="17" fill="url(#g)" opacity="0.9"/>
+  <image href="deshort-mark.png" x="0" y="0" width="512" height="512" preserveAspectRatio="xMidYMid meet"/>
 </svg>

@@ -1,43 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="deshort.com">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="deshort.com social card">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#5AC8FA"/>
-      <stop offset="1" stop-color="#A78BFA"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F1013"/>
+      <stop offset="1" stop-color="#17191F"/>
     </linearGradient>
-    <radialGradient id="r1" cx="20%" cy="10%" r="70%">
-      <stop offset="0" stop-color="#5AC8FA" stop-opacity="0.25"/>
-      <stop offset="1" stop-color="#0B0B0D" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="r2" cx="85%" cy="20%" r="70%">
-      <stop offset="0" stop-color="#A78BFA" stop-opacity="0.22"/>
-      <stop offset="1" stop-color="#0B0B0D" stop-opacity="0"/>
-    </radialGradient>
   </defs>
 
-  <rect width="1200" height="630" fill="#0B0B0D"/>
-  <rect width="1200" height="630" fill="url(#r1)"/>
-  <rect width="1200" height="630" fill="url(#r2)"/>
+  <rect width="1200" height="630" fill="url(#bg)"/>
 
-  <!-- mark -->
-  <g transform="translate(96,120)">
-    <rect x="0" y="0" width="180" height="180" rx="52" fill="#121214"/>
-    <rect x="0" y="0" width="180" height="180" rx="52" fill="none" stroke="#2A2A30" stroke-width="4"/>
+  <image href="deshort-mark.png" x="120" y="155" width="320" height="320" preserveAspectRatio="xMidYMid meet"/>
 
-    <path d="M44 90 C44 52 94 52 100 90 C106 128 156 128 156 90 C156 52 106 52 100 90 C94 128 44 128 44 90"
-          fill="none" stroke="url(#g)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="140" y="44" width="46" height="28" rx="12" fill="#121214"/>
-
-    <path d="M84 72 L84 108 L110 90 Z" fill="#ECECF0"/>
-    <circle cx="100" cy="90" r="3.5" fill="#ECECF0" opacity="0.9"/>
-
-    <rect x="18" y="150" width="144" height="18" rx="9" fill="url(#g)" opacity="0.9"/>
-  </g>
-
-  <g transform="translate(312,205)">
-    <text x="0" y="0" fill="#ECECF0" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="74" font-weight="850" letter-spacing="-1.5">deshort.com</text>
-    <text x="0" y="70" fill="#A7A7B2" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="28" font-weight="650">Break the endless loop. Reclaim attention.</text>
-    <text x="0" y="128" fill="#A7A7B2" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial" font-size="22">Hide Shorts and Reels in listings. Keep direct links.</text>
-  </g>
-
-  <rect x="96" y="520" width="1008" height="6" rx="3" fill="url(#g)" opacity="0.95"/>
+  <text x="490" y="290" fill="#F3F4F6" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="92" font-weight="900" letter-spacing="-1.6">deshort</text>
+  <text x="915" y="290" fill="#EF4444" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="92" font-weight="900" letter-spacing="-1.6">.com</text>
+  <text x="490" y="360" fill="#B9BDC7" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="36" font-weight="600">Reclaim attention. Block short-video habits.</text>
 </svg>
