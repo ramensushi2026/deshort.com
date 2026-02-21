@@ -1,0 +1,4 @@
+# Canonical host redirect
+https://www.deshort.com/* https://deshort.com/:splat 301
+http://www.deshort.com/* https://deshort.com/:splat 301
+http://deshort.com/* https://deshort.com/:splat 301
